@@ -11,6 +11,9 @@
   "author": "",
   "license": "ISC",
   "description": "",
+  "_moduleAliases": {
+    "@": "./src"
+  },
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
@@ -24,6 +27,7 @@
     "@eslint/js": "^9.15.0",
     "autoprefixer": "^10.4.20",
     "babel-loader": "^9.2.1",
+    "babel-plugin-module-resolver": "^5.0.2",
     "css-loader": "^7.1.2",
     "eslint": "^9.15.0",
     "eslint-config-prettier": "^9.1.0",
@@ -34,6 +38,7 @@
     "globals": "^15.12.0",
     "html-webpack-plugin": "^5.6.3",
     "mini-css-extract-plugin": "^2.9.2",
+    "module-alias": "^2.2.3",
     "postcss": "^8.4.49",
     "postcss-loader": "^8.1.1",
     "style-loader": "^4.0.0",
